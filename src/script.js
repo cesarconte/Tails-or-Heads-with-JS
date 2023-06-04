@@ -68,7 +68,7 @@ function enableButton() {
 }
 
 function showResultMessage(result) {
-  const playAgain = confirm(`The result is ${result}. Do you want to play again?`);
+  const playAgain = confirm(`The result is ${result}.\nDo you want to play again?`);
 
   if (!playAgain) {
     const quitOption = confirm("Do you prefer to quit the game?");
@@ -84,7 +84,7 @@ function showResultMessage(result) {
 }
 
 window.addEventListener("load", () => {
-  const welcomeMessage = "Welcome to Tails and Heads! Would you like to play?";
+  const welcomeMessage = "Welcome to Tails and Heads!\nWould you like to play?";
   const playOption = confirm(welcomeMessage);
 
   if (playOption) {
