@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container__game-coin {
   height: 17.5vmin;
   width: 17.5vmin;
@@ -43,4 +44,69 @@
   100% {
     transform: rotateX(3960deg);
   }
+=======
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #000;
+  background: url("https://images.unsplash.com/photo-1626183462405-f1469783dff2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1993&q=80.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: #010101b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__game {
+  padding: 2.5vmax;
+  background: #010101;
+  border-radius: 12px;
+  box-shadow: 0px 0px 35px #4c7587;
+  text-align: center;
+  border: 1.5px solid #45aab2;
+}
+
+.container__game-title {
+  font-size: 2.5vmax;
+  color: #45aab2;
+  margin-bottom: 5vh;
+}
+
+.container__game-stats-title {
+  font-size: 2vmax;
+  color: #010101;
+  margin-bottom: 2vh;
+  background: #cf6732;
+}
+
+.container__game-stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 25%;
+  color: #0c3853;
+  font-weight: 500;
+  font-size: 1.175vmax;
+}
+
+.container__game-stats-item {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 1vmax;
+  background: #f8cd64;
+  border-radius: 5px;
+>>>>>>> 1c17f35176c9376fd5d53e9a2b48f10bfcefeea2
 }
