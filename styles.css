@@ -1,0 +1,46 @@
+.container__game-coin {
+  height: 17.5vmin;
+  width: 17.5vmin;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh auto;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.container__game-coin img {
+  width: 100%;
+}
+
+.container__game-coin-heads,
+.container__game-coin-tails {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.container__game-coin-tails {
+  transform: rotateX(180deg);
+}
+
+@keyframes spin-tails {
+  0% {
+    transform: rotateX(0);
+  }
+
+  100% {
+    transform: rotateX(3780deg);
+  }
+}
+
+@keyframes spin-heads {
+  0% {
+    transform: rotateX(0);
+  }
+
+  100% {
+    transform: rotateX(3960deg);
+  }
+}
